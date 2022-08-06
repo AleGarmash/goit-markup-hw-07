@@ -90,13 +90,8 @@
 			background-color: var(--accent-color);
 		}
 	}
-}
-&__icon {
-	fill: var(--secondary-background-color);
-}
 
-/*____________________ Подпишитесь на рассылку____________________ */
-
-.mail-chimp {
-	margin-left: auto;
+	&__icon {
+		fill: var(--secondary-background-color);
+	}
 }
