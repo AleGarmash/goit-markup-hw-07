@@ -1088,7 +1088,7 @@ body {
   position: relative;
   overflow: hidden;
 }
-.portfolio__hover-text {
+.portfolio__overlay {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -1127,16 +1127,15 @@ body {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
-.portfolio__item:hover .portfolio__hover-text,
-.portfolio__item:focus .portfolio__hover-text {
-  -webkit-transform: translateY(0px);
-          transform: translateY(0px);
-}
-
-.border {
+.portfolio__text-box {
   padding: 20px 24px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+}
+
+.portfolio__item:hover .portfolio__overlay,
+.portfolio__item:focus .portfolio__overlay {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }/*# sourceMappingURL=main.css.map */
